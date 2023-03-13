@@ -1,0 +1,6 @@
+resilience4j.circuitbreaker:
+  instances:
+    myCircuitBreaker:
+      slow-call-duration-threshold: 3000ms
+      minimum-number-of-calls: 3
+      sliding-window-size: 10
